@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/conveyor_system/conveyor_system.egg-info
+writing ../../build/conveyor_system/conveyor_system.egg-info/PKG-INFO
+writing dependency_links to ../../build/conveyor_system/conveyor_system.egg-info/dependency_links.txt
+writing requirements to ../../build/conveyor_system/conveyor_system.egg-info/requires.txt
+writing top-level names to ../../build/conveyor_system/conveyor_system.egg-info/top_level.txt
+writing manifest file '../../build/conveyor_system/conveyor_system.egg-info/SOURCES.txt'
+reading manifest file '../../build/conveyor_system/conveyor_system.egg-info/SOURCES.txt'
+writing manifest file '../../build/conveyor_system/conveyor_system.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ojingwa/conveyor_ws/build/conveyor_system/build
+creating /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib
+creating /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system
+copying conveyor_system/safety_supervisor_node.py -> /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system
+copying conveyor_system/logger_node.py -> /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system
+copying conveyor_system/__init__.py -> /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system
+copying conveyor_system/control_node.py -> /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system
+copying conveyor_system/operator_service_node.py -> /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system
+copying conveyor_system/sensor_node.py -> /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system
+running install
+running install_lib
+creating /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system
+copying /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system/safety_supervisor_node.py -> /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system
+copying /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system/logger_node.py -> /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system
+copying /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system/__init__.py -> /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system
+copying /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system/control_node.py -> /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system
+copying /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system/operator_service_node.py -> /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system
+copying /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system/sensor_node.py -> /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system
+byte-compiling /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system/safety_supervisor_node.py to safety_supervisor_node.cpython-312.pyc
+byte-compiling /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system/logger_node.py to logger_node.cpython-312.pyc
+byte-compiling /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system/control_node.py to control_node.cpython-312.pyc
+byte-compiling /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system/operator_service_node.py to operator_service_node.cpython-312.pyc
+byte-compiling /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system/sensor_node.py to sensor_node.cpython-312.pyc
+running install_data
+creating /home/ojingwa/conveyor_ws/install/conveyor_system/share/ament_index
+creating /home/ojingwa/conveyor_ws/install/conveyor_system/share/ament_index/resource_index
+creating /home/ojingwa/conveyor_ws/install/conveyor_system/share/ament_index/resource_index/packages
+copying resource/conveyor_system -> /home/ojingwa/conveyor_ws/install/conveyor_system/share/ament_index/resource_index/packages
+copying package.xml -> /home/ojingwa/conveyor_ws/install/conveyor_system/share/conveyor_system
+running install_egg_info
+Copying ../../build/conveyor_system/conveyor_system.egg-info to /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/ojingwa/conveyor_ws/build/conveyor_system/install.log'

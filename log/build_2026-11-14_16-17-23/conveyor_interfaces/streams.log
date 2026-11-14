@@ -1,0 +1,42 @@
+[0.026s] Invoking command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ojingwa/conveyor_ws/src/conveyor_interfaces -DCMAKE_INSTALL_PREFIX=/home/ojingwa/conveyor_ws/install/conveyor_interfaces
+[0.306s] -- The C compiler identification is GNU 13.3.0
+[0.850s] -- The CXX compiler identification is GNU 13.3.0
+[1.174s] -- Detecting C compiler ABI info
+[1.347s] -- Detecting C compiler ABI info - done
+[1.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.354s] -- Detecting C compile features
+[1.355s] -- Detecting C compile features - done
+[1.385s] -- Detecting CXX compiler ABI info
+[1.511s] -- Detecting CXX compiler ABI info - done
+[1.517s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.517s] -- Detecting CXX compile features
+[1.517s] -- Detecting CXX compile features - done
+[1.528s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.665s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.778s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.905s] -- Added test 'lint_cmake' to check CMake code style
+[1.906s] -- Added test 'xmllint' to check XML markup files
+[1.909s] -- Configuring done (1.8s)
+[1.911s] -- Generating done (0.0s)
+[1.912s] -- Build files have been written to: /home/ojingwa/conveyor_ws/build/conveyor_interfaces
+[1.918s] Invoked command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ojingwa/conveyor_ws/src/conveyor_interfaces -DCMAKE_INSTALL_PREFIX=/home/ojingwa/conveyor_ws/install/conveyor_interfaces
+[1.919s] Invoking command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14
+[1.949s] Invoked command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14
+[1.956s] Invoking command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ojingwa/conveyor_ws/build/conveyor_interfaces
+[1.961s] -- Install configuration: ""
+[1.962s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/ament_index/resource_index/package_run_dependencies/conveyor_interfaces
+[1.962s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/ament_index/resource_index/parent_prefix_path/conveyor_interfaces
+[1.963s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/ament_prefix_path.sh
+[1.963s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/ament_prefix_path.dsv
+[1.963s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/path.sh
+[1.963s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/path.dsv
+[1.964s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.bash
+[1.964s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.sh
+[1.964s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.zsh
+[1.964s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.dsv
+[1.964s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/package.dsv
+[1.964s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/ament_index/resource_index/packages/conveyor_interfaces
+[1.964s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfacesConfig.cmake
+[1.964s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfacesConfig-version.cmake
+[1.964s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/package.xml
+[1.966s] Invoked command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ojingwa/conveyor_ws/build/conveyor_interfaces

@@ -1,0 +1,6 @@
+source;share/conveyor_system/hook/pythonpath.ps1
+source;share/conveyor_system/hook/pythonpath.dsv
+source;share/conveyor_system/hook/pythonpath.sh
+source;share/conveyor_system/hook/ament_prefix_path.ps1
+source;share/conveyor_system/hook/ament_prefix_path.dsv
+source;share/conveyor_system/hook/ament_prefix_path.sh

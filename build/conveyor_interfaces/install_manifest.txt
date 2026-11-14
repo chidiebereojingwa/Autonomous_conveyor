@@ -1,0 +1,15 @@
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/ament_index/resource_index/package_run_dependencies/conveyor_interfaces
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/ament_index/resource_index/parent_prefix_path/conveyor_interfaces
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/ament_prefix_path.sh
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/ament_prefix_path.dsv
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/path.sh
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/path.dsv
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.bash
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.sh
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.zsh
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.dsv
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/package.dsv
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/ament_index/resource_index/packages/conveyor_interfaces
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfacesConfig.cmake
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfacesConfig-version.cmake
+/home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/package.xml
