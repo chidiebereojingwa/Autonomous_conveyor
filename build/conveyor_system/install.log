@@ -14,7 +14,10 @@
 /home/ojingwa/conveyor_ws/install/conveyor_system/share/conveyor_system/package.xml
 /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system-0.0.0-py3.12.egg-info/SOURCES.txt
 /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system-0.0.0-py3.12.egg-info/zip-safe
+/home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system-0.0.0-py3.12.egg-info/entry_points.txt
 /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system-0.0.0-py3.12.egg-info/requires.txt
 /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system-0.0.0-py3.12.egg-info/top_level.txt
 /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system-0.0.0-py3.12.egg-info/dependency_links.txt
 /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system-0.0.0-py3.12.egg-info/PKG-INFO
+/home/ojingwa/conveyor_ws/install/conveyor_system/lib/conveyor_system/control_node
+/home/ojingwa/conveyor_ws/install/conveyor_system/lib/conveyor_system/sensor_node

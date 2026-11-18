@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/conveyor_system/conveyor_system.egg-info/PKG-INFO
+writing dependency_links to ../../build/conveyor_system/conveyor_system.egg-info/dependency_links.txt
+writing entry points to ../../build/conveyor_system/conveyor_system.egg-info/entry_points.txt
+writing requirements to ../../build/conveyor_system/conveyor_system.egg-info/requires.txt
+writing top-level names to ../../build/conveyor_system/conveyor_system.egg-info/top_level.txt
+reading manifest file '../../build/conveyor_system/conveyor_system.egg-info/SOURCES.txt'
+writing manifest file '../../build/conveyor_system/conveyor_system.egg-info/SOURCES.txt'
+running build
+running build_py
+copying conveyor_system/sensor_node.py -> /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system
+running install
+running install_lib
+copying /home/ojingwa/conveyor_ws/build/conveyor_system/build/lib/conveyor_system/sensor_node.py -> /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system
+byte-compiling /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system/sensor_node.py to sensor_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/conveyor_system/conveyor_system.egg-info to /home/ojingwa/conveyor_ws/install/conveyor_system/lib/python3.12/site-packages/conveyor_system-0.0.0-py3.12.egg-info
+running install_scripts
+Installing sensor_node script to /home/ojingwa/conveyor_ws/install/conveyor_system/lib/conveyor_system
+writing list of installed files to '/home/ojingwa/conveyor_ws/build/conveyor_system/install.log'

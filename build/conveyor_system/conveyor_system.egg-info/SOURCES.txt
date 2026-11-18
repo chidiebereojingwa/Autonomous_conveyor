@@ -4,6 +4,7 @@ setup.py
 ../../build/conveyor_system/conveyor_system.egg-info/PKG-INFO
 ../../build/conveyor_system/conveyor_system.egg-info/SOURCES.txt
 ../../build/conveyor_system/conveyor_system.egg-info/dependency_links.txt
+../../build/conveyor_system/conveyor_system.egg-info/entry_points.txt
 ../../build/conveyor_system/conveyor_system.egg-info/requires.txt
 ../../build/conveyor_system/conveyor_system.egg-info/top_level.txt
 ../../build/conveyor_system/conveyor_system.egg-info/zip-safe

@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'sensor_node = conveyor_system.sensor_node:main',
+            'control_node = conveyor_system.control_node:main',
         ],
     },
 )
