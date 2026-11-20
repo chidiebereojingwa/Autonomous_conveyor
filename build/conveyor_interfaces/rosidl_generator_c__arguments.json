@@ -1,0 +1,56 @@
+{
+  "package_name": "conveyor_interfaces",
+  "output_dir": "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_generator_c/conveyor_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:msg/BoxState.idl",
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:msg/BeltCommand.idl",
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:msg/SystemAlert.idl",
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:srv/SetMode.idl"
+  ],
+  "ros_interface_files": [
+    "/home/ojingwa/conveyor_ws/src/conveyor_interfaces/msg/BoxState.msg",
+    "/home/ojingwa/conveyor_ws/src/conveyor_interfaces/msg/BeltCommand.msg",
+    "/home/ojingwa/conveyor_ws/src/conveyor_interfaces/msg/SystemAlert.msg",
+    "/home/ojingwa/conveyor_ws/src/conveyor_interfaces/srv/SetMode.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces/msg/BoxState.idl",
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces/msg/BeltCommand.idl",
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces/msg/SystemAlert.idl",
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces/srv/SetMode.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/BoxState.idl:/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_generator_type_description/conveyor_interfaces/msg/BoxState.json",
+    "msg/BeltCommand.idl:/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_generator_type_description/conveyor_interfaces/msg/BeltCommand.json",
+    "msg/SystemAlert.idl:/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_generator_type_description/conveyor_interfaces/msg/SystemAlert.json",
+    "srv/SetMode.idl:/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_generator_type_description/conveyor_interfaces/srv/SetMode.json"
+  ]
+}

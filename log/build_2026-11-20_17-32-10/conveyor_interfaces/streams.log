@@ -1,0 +1,348 @@
+[0.018s] Invoking command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces': /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14
+[0.111s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.347s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.561s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.134s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.966s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.072s] -- Found PythonExtra: /usr/bin/python3  
+[2.499s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.556s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.557s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.581s] -- Added test 'lint_cmake' to check CMake code style
+[2.582s] -- Added test 'xmllint' to check XML markup files
+[2.585s] -- Configuring done (2.5s)
+[2.633s] -- Generating done (0.0s)
+[2.643s] -- Build files have been written to: /home/ojingwa/conveyor_ws/build/conveyor_interfaces
+[2.677s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.685s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.685s] [  3%] Built target ament_cmake_python_copy_conveyor_interfaces
+[2.892s] running egg_info
+[2.893s] creating conveyor_interfaces.egg-info
+[2.913s] [  3%] Built target conveyor_interfaces__rosidl_generator_type_description
+[2.916s] writing conveyor_interfaces.egg-info/PKG-INFO
+[2.916s] writing dependency_links to conveyor_interfaces.egg-info/dependency_links.txt
+[2.917s] writing top-level names to conveyor_interfaces.egg-info/top_level.txt
+[2.917s] writing manifest file 'conveyor_interfaces.egg-info/SOURCES.txt'
+[2.924s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.936s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.946s] [  6%] Built target conveyor_interfaces__rs
+[2.982s] reading manifest file 'conveyor_interfaces.egg-info/SOURCES.txt'
+[2.982s] writing manifest file 'conveyor_interfaces.egg-info/SOURCES.txt'
+[3.015s] [  6%] Built target ament_cmake_python_build_conveyor_interfaces_egg
+[3.232s] [  6%] Built target conveyor_interfaces__cpp
+[3.280s] [  9%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/msg/detail/box_state__type_support.c.o[0m
+[3.280s] [  9%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/msg/detail/box_state__functions.c.o[0m
+[3.280s] [ 10%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/msg/detail/box_state__description.c.o[0m
+[3.282s] [ 12%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/msg/detail/belt_command__description.c.o[0m
+[3.283s] [ 15%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/msg/detail/belt_command__type_support.c.o[0m
+[3.283s] [ 16%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/msg/detail/system_alert__description.c.o[0m
+[3.284s] [ 15%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/msg/detail/belt_command__functions.c.o[0m
+[3.287s] [ 18%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/srv/detail/set_mode__description.c.o[0m
+[3.287s] [ 20%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/msg/detail/system_alert__type_support.c.o[0m
+[3.288s] [ 23%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/srv/detail/set_mode__type_support.c.o[0m
+[3.288s] [ 23%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/srv/detail/set_mode__functions.c.o[0m
+[3.291s] [ 24%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/conveyor_interfaces/msg/detail/system_alert__functions.c.o[0m
+[3.404s] [ 26%] [32m[1mLinking C shared library libconveyor_interfaces__rosidl_generator_c.so[0m
+[3.491s] [ 26%] Built target conveyor_interfaces__rosidl_generator_c
+[3.502s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.503s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.504s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.505s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.506s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.506s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.793s] [ 38%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyor_interfaces/msg/belt_command__type_support.cpp.o[0m
+[3.794s] [ 38%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyor_interfaces/srv/set_mode__type_support.cpp.o[0m
+[3.794s] [ 40%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyor_interfaces/msg/belt_command__type_support.cpp.o[0m
+[3.796s] [ 41%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyor_interfaces/msg/box_state__type_support.cpp.o[0m
+[3.796s] [ 44%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyor_interfaces/srv/set_mode__type_support.cpp.o[0m
+[3.796s] [ 44%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyor_interfaces/msg/system_alert__type_support.cpp.o[0m
+[3.796s] [ 47%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyor_interfaces/msg/system_alert__type_support.cpp.o[0m
+[3.796s] [ 47%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyor_interfaces/msg/box_state__type_support.cpp.o[0m
+[3.875s] [ 49%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyor_interfaces/msg/detail/belt_command__type_support.cpp.o[0m
+[3.875s] [ 50%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyor_interfaces/msg/detail/box_state__type_support.cpp.o[0m
+[3.878s] [ 53%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyor_interfaces/msg/detail/system_alert__type_support.cpp.o[0m
+[3.880s] [ 52%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyor_interfaces/srv/detail/set_mode__type_support.cpp.o[0m
+[3.902s] [ 55%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyor_interfaces/msg/detail/box_state__type_support.c.o[0m
+[3.902s] [ 56%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyor_interfaces/msg/detail/belt_command__type_support.c.o[0m
+[3.905s] [ 58%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyor_interfaces/msg/detail/system_alert__type_support.c.o[0m
+[3.909s] [ 60%] [32m[1mLinking CXX shared library libconveyor_interfaces__rosidl_typesupport_c.so[0m
+[3.959s] [ 61%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyor_interfaces/srv/detail/set_mode__type_support.c.o[0m
+[4.039s] [ 63%] [32m[1mLinking C shared library libconveyor_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.039s] [ 64%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyor_interfaces/msg/detail/box_state__type_support_c.cpp.o[0m
+[4.039s] [ 66%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyor_interfaces/msg/detail/system_alert__type_support_c.cpp.o[0m
+[4.040s] [ 67%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyor_interfaces/msg/detail/belt_command__type_support_c.cpp.o[0m
+[4.054s] [ 69%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyor_interfaces/msg/detail/dds_fastrtps/box_state__type_support.cpp.o[0m
+[4.094s] [ 69%] Built target conveyor_interfaces__rosidl_typesupport_c
+[4.115s] [ 70%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyor_interfaces/msg/detail/dds_fastrtps/belt_command__type_support.cpp.o[0m
+[4.331s] [ 70%] Built target conveyor_interfaces__rosidl_typesupport_introspection_c
+[4.348s] [ 72%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyor_interfaces/srv/detail/set_mode__type_support_c.cpp.o[0m
+[4.353s] [ 73%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyor_interfaces/msg/detail/dds_fastrtps/system_alert__type_support.cpp.o[0m
+[4.379s] [ 75%] [32mBuilding CXX object CMakeFiles/conveyor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyor_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[4.546s] [ 76%] [32m[1mLinking CXX shared library libconveyor_interfaces__rosidl_typesupport_cpp.so[0m
+[4.691s] [ 78%] [32m[1mLinking CXX shared library libconveyor_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.732s] [ 78%] Built target conveyor_interfaces__rosidl_typesupport_cpp
+[4.837s] [ 78%] Built target conveyor_interfaces__rosidl_typesupport_introspection_cpp
+[4.996s] [ 80%] [32m[1mLinking CXX shared library libconveyor_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.087s] [ 81%] [32m[1mLinking CXX shared library libconveyor_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.102s] [ 81%] Built target conveyor_interfaces__rosidl_typesupport_fastrtps_c
+[5.190s] [ 81%] Built target conveyor_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.207s] [ 81%] Built target conveyor_interfaces
+[5.223s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.592s] [ 83%] Built target conveyor_interfaces__py
+[5.608s] [ 84%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/conveyor_interfaces/srv/_set_mode_s.c.o[0m
+[5.609s] [ 86%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/conveyor_interfaces/msg/_system_alert_s.c.o[0m
+[5.611s] [ 87%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/conveyor_interfaces/msg/_box_state_s.c.o[0m
+[5.613s] [ 89%] [32mBuilding C object CMakeFiles/conveyor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/conveyor_interfaces/msg/_belt_command_s.c.o[0m
+[5.762s] [ 90%] [32m[1mLinking C shared library libconveyor_interfaces__rosidl_generator_py.so[0m
+[5.840s] [ 90%] Built target conveyor_interfaces__rosidl_generator_py
+[5.857s] [ 92%] [32mBuilding C object CMakeFiles/conveyor_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/conveyor_interfaces/_conveyor_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.858s] [ 93%] [32mBuilding C object CMakeFiles/conveyor_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/conveyor_interfaces/_conveyor_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.862s] [ 95%] [32mBuilding C object CMakeFiles/conveyor_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/conveyor_interfaces/_conveyor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.942s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.951s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.968s] [100%] [32m[1mLinking C shared module rosidl_generator_py/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_c.so[0m
+[6.009s] [100%] Built target conveyor_interfaces_s__rosidl_typesupport_introspection_c
+[6.014s] [100%] Built target conveyor_interfaces_s__rosidl_typesupport_fastrtps_c
+[6.026s] [100%] Built target conveyor_interfaces_s__rosidl_typesupport_c
+[6.035s] Invoked command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces' returned '0': /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14
+[6.042s] Invoking command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces': /usr/bin/cmake --install /home/ojingwa/conveyor_ws/build/conveyor_interfaces
+[6.049s] -- Install configuration: ""
+[6.049s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/ament_index/resource_index/rosidl_interfaces/conveyor_interfaces
+[6.050s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/msg/BoxState.json
+[6.050s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/msg/BeltCommand.json
+[6.050s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/msg/SystemAlert.json
+[6.050s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/srv/SetMode.json
+[6.050s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces
+[6.050s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg
+[6.051s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/box_state.h
+[6.051s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/system_alert.h
+[6.051s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/belt_command.h
+[6.051s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail
+[6.051s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__struct.h
+[6.052s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__functions.h
+[6.052s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__type_support.h
+[6.052s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__type_support.h
+[6.052s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__type_support.c
+[6.052s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__type_support.c
+[6.052s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__functions.h
+[6.052s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__description.c
+[6.052s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__description.c
+[6.052s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__functions.c
+[6.052s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__type_support.c
+[6.053s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__description.c
+[6.053s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__struct.h
+[6.053s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__struct.h
+[6.053s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__functions.c
+[6.053s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__functions.c
+[6.053s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__type_support.h
+[6.053s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__functions.h
+[6.053s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.054s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv
+[6.054s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/set_mode.h
+[6.057s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail
+[6.057s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__functions.c
+[6.057s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__type_support.c
+[6.057s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__functions.h
+[6.057s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__type_support.h
+[6.058s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__struct.h
+[6.058s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__description.c
+[6.058s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/library_path.sh
+[6.058s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/library_path.dsv
+[6.058s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_generator_c.so
+[6.058s] -- Set non-toolchain portion of runtime path of "/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_generator_c.so" to ""
+[6.058s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces
+[6.059s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg
+[6.059s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.059s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail
+[6.059s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__rosidl_typesupport_fastrtps_c.h
+[6.059s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__rosidl_typesupport_fastrtps_c.h
+[6.059s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__rosidl_typesupport_fastrtps_c.h
+[6.060s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv
+[6.060s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail
+[6.060s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[6.060s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.060s] -- Set non-toolchain portion of runtime path of "/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.060s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces
+[6.060s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg
+[6.060s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.060s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail
+[6.060s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__rosidl_typesupport_introspection_c.h
+[6.060s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__rosidl_typesupport_introspection_c.h
+[6.060s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__type_support.c
+[6.060s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__type_support.c
+[6.060s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__type_support.c
+[6.060s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__rosidl_typesupport_introspection_c.h
+[6.060s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv
+[6.060s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail
+[6.060s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__type_support.c
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_introspection_c.so
+[6.061s] -- Set non-toolchain portion of runtime path of "/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_c.so
+[6.061s] -- Set non-toolchain portion of runtime path of "/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_c.so" to ""
+[6.061s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces
+[6.061s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/system_alert.hpp
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/belt_command.hpp
+[6.061s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__type_support.hpp
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__type_support.hpp
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__type_support.hpp
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__builder.hpp
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__traits.hpp
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__struct.hpp
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__builder.hpp
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__builder.hpp
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__traits.hpp
+[6.061s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__struct.hpp
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__traits.hpp
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__struct.hpp
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/box_state.hpp
+[6.062s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/set_mode.hpp
+[6.062s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__struct.hpp
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__builder.hpp
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__traits.hpp
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__type_support.hpp
+[6.062s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces
+[6.062s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.062s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__rosidl_typesupport_fastrtps_cpp.hpp
+[6.062s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__rosidl_typesupport_fastrtps_cpp.hpp
+[6.063s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/dds_fastrtps
+[6.063s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv
+[6.063s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail
+[6.063s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[6.063s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/dds_fastrtps
+[6.064s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.064s] -- Set non-toolchain portion of runtime path of "/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.064s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces
+[6.064s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg
+[6.064s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail
+[6.064s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__rosidl_typesupport_introspection_cpp.hpp
+[6.064s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__rosidl_typesupport_introspection_cpp.hpp
+[6.064s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__type_support.cpp
+[6.064s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/box_state__rosidl_typesupport_introspection_cpp.hpp
+[6.064s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/system_alert__type_support.cpp
+[6.064s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/msg/detail/belt_command__type_support.cpp
+[6.064s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv
+[6.065s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail
+[6.065s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__type_support.cpp
+[6.065s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/include/conveyor_interfaces/conveyor_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[6.065s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.065s] -- Set non-toolchain portion of runtime path of "/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.065s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_cpp.so
+[6.066s] -- Set non-toolchain portion of runtime path of "/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/pythonpath.sh
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/pythonpath.dsv
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces-0.0.0-py3.12.egg-info
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/_conveyor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg/__init__.py
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg/_box_state_s.c
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg/_box_state.py
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg/_system_alert.py
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg/_belt_command.py
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg/_system_alert_s.c
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg/_belt_command_s.c
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/srv
+[6.066s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/srv/_set_mode.py
+[6.067s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/srv/__init__.py
+[6.067s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/srv/_set_mode_s.c
+[6.067s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/__init__.py
+[6.067s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/_conveyor_interfaces_s.ep.rosidl_typesupport_c.c
+[6.067s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/_conveyor_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.067s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.067s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_c.so
+[6.100s] Listing '/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces'...
+[6.100s] Compiling '/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/__init__.py'...
+[6.100s] Listing '/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg'...
+[6.100s] Compiling '/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg/__init__.py'...
+[6.100s] Compiling '/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg/_belt_command.py'...
+[6.100s] Compiling '/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg/_box_state.py'...
+[6.100s] Compiling '/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/msg/_system_alert.py'...
+[6.100s] Listing '/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/srv'...
+[6.100s] Compiling '/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/srv/__init__.py'...
+[6.100s] Compiling '/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/srv/_set_mode.py'...
+[6.104s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.105s] -- Set non-toolchain portion of runtime path of "/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.105s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.105s] -- Set non-toolchain portion of runtime path of "/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[6.105s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_c.so
+[6.105s] -- Set non-toolchain portion of runtime path of "/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/python3.12/site-packages/conveyor_interfaces/conveyor_interfaces_s__rosidl_typesupport_c.so" to ""
+[6.105s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_generator_py.so
+[6.106s] -- Set non-toolchain portion of runtime path of "/home/ojingwa/conveyor_ws/install/conveyor_interfaces/lib/libconveyor_interfaces__rosidl_generator_py.so" to ""
+[6.106s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/rust
+[6.106s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/rust/src
+[6.106s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/rust/src/msg
+[6.106s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/rust/src/msg/rmw.rs
+[6.107s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/rust/src/lib.rs
+[6.107s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/rust/src/srv
+[6.107s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/rust/src/srv/rmw.rs
+[6.107s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/rust/src/srv.rs
+[6.107s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/rust/src/msg.rs
+[6.108s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/rust/Cargo.toml
+[6.108s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/rust/build.rs
+[6.108s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/msg/BoxState.idl
+[6.108s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/msg/BeltCommand.idl
+[6.108s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/msg/SystemAlert.idl
+[6.108s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/srv/SetMode.idl
+[6.108s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/msg/BoxState.msg
+[6.109s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/msg/BeltCommand.msg
+[6.109s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/msg/SystemAlert.msg
+[6.109s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/srv/SetMode.srv
+[6.109s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/ament_index/resource_index/package_run_dependencies/conveyor_interfaces
+[6.109s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/ament_index/resource_index/parent_prefix_path/conveyor_interfaces
+[6.109s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/ament_prefix_path.sh
+[6.110s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/ament_prefix_path.dsv
+[6.110s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/path.sh
+[6.110s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/environment/path.dsv
+[6.110s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.bash
+[6.110s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.sh
+[6.110s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.zsh
+[6.110s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/local_setup.dsv
+[6.110s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/package.dsv
+[6.110s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/ament_index/resource_index/packages/conveyor_interfaces
+[6.110s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/export_conveyor_interfaces__rosidl_generator_cExport.cmake
+[6.110s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/export_conveyor_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.110s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/export_conveyor_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/export_conveyor_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfaces__rosidl_typesupport_cExport.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/export_conveyor_interfaces__rosidl_generator_cppExport.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/export_conveyor_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/export_conveyor_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfaces__rosidl_typesupport_cppExport.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/export_conveyor_interfaces__rosidl_generator_pyExport.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/export_conveyor_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.111s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.112s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.112s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[6.112s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfacesConfig.cmake
+[6.112s] -- Up-to-date: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/cmake/conveyor_interfacesConfig-version.cmake
+[6.112s] -- Installing: /home/ojingwa/conveyor_ws/install/conveyor_interfaces/share/conveyor_interfaces/package.xml
+[6.114s] Invoked command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces' returned '0': /usr/bin/cmake --install /home/ojingwa/conveyor_ws/build/conveyor_interfaces

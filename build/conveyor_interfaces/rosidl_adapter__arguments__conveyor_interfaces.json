@@ -1,0 +1,9 @@
+{
+  "package_name": "conveyor_interfaces",
+  "non_idl_tuples": [
+    "/home/ojingwa/conveyor_ws/src/conveyor_interfaces:msg/BoxState.msg",
+    "/home/ojingwa/conveyor_ws/src/conveyor_interfaces:msg/BeltCommand.msg",
+    "/home/ojingwa/conveyor_ws/src/conveyor_interfaces:msg/SystemAlert.msg",
+    "/home/ojingwa/conveyor_ws/src/conveyor_interfaces:srv/SetMode.srv"
+  ]
+}

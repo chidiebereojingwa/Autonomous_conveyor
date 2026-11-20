@@ -1,0 +1,17 @@
+[0.023s] Invoking command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces': /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14
+[0.121s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.362s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.549s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.552s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.552s]   rosidl_generate_interfaces() the passed file 'srv/SetMode.srv' doesn't
+[0.553s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.553s]   '/home/ojingwa/conveyor_ws/src/conveyor_interfaces'
+[0.553s] Call Stack (most recent call first):
+[0.553s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.553s] 
+[0.553s] [0m
+[0.554s] -- Configuring incomplete, errors occurred!
+[0.559s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.561s] Invoked command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces' returned '2': /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14

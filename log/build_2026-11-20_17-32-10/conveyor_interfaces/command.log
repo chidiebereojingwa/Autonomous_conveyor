@@ -1,0 +1,4 @@
+Invoking command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces': /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14
+Invoked command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces' returned '0': /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14
+Invoking command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces': /usr/bin/cmake --install /home/ojingwa/conveyor_ws/build/conveyor_interfaces
+Invoked command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces' returned '0': /usr/bin/cmake --install /home/ojingwa/conveyor_ws/build/conveyor_interfaces

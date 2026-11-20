@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "conveyor_interfaces/srv/SetMode_Request",
+      "fields": [
+        {
+          "name": "mode",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "conveyor_interfaces/srv/SetMode_Request",
+      "hash_string": "RIHS01_fe4193d838bec8943fb96324a622fd2f5699f83c27922d211e427ea4c783bbe1"
+    }
+  ]
+}

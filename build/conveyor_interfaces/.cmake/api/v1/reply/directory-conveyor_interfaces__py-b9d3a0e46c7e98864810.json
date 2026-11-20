@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "conveyor_interfaces__py",
+		"source" : "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/conveyor_interfaces__py"
+	}
+}

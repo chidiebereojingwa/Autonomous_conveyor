@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bf630916dfe8b6a9cf46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "conveyor_interfaces__py",
+					"jsonFile" : "directory-conveyor_interfaces__py-b9d3a0e46c7e98864810.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/conveyor_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "conveyor_interfaces__rs",
+					"jsonFile" : "directory-conveyor_interfaces__rs-28d7892dca254176c0ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/conveyor_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "conveyor_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_conveyor_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_conveyor_interfaces_egg-826962e7f9212cbd5a92.json",
+					"name" : "ament_cmake_python_build_conveyor_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_conveyor_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_conveyor_interfaces-affbd80e361ac4e44b5a.json",
+					"name" : "ament_cmake_python_copy_conveyor_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces-2bb32292c56f54c7c206.json",
+					"name" : "conveyor_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces__cpp-2580ccc78e1dfd0fb063.json",
+					"name" : "conveyor_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "conveyor_interfaces__py::@179f13fbcad84ec28837",
+					"jsonFile" : "target-conveyor_interfaces__py-5653c09be50a5adea299.json",
+					"name" : "conveyor_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces__rosidl_generator_c-b5563b78659ad4c751ee.json",
+					"name" : "conveyor_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces__rosidl_generator_py-9ee5c9442eed1c3c489a.json",
+					"name" : "conveyor_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces__rosidl_generator_type_description-bede3b614a5dbfabf77b.json",
+					"name" : "conveyor_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces__rosidl_typesupport_c-6d6e465d62129019d91c.json",
+					"name" : "conveyor_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces__rosidl_typesupport_cpp-580bcdcce1d418836903.json",
+					"name" : "conveyor_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces__rosidl_typesupport_fastrtps_c-fc19c16bc3205b267fee.json",
+					"name" : "conveyor_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces__rosidl_typesupport_fastrtps_cpp-3da678e4ddb5f5301428.json",
+					"name" : "conveyor_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces__rosidl_typesupport_introspection_c-d73943eb92766b08417e.json",
+					"name" : "conveyor_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces__rosidl_typesupport_introspection_cpp-eeecab4279389983a9cc.json",
+					"name" : "conveyor_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "conveyor_interfaces__rs::@d381eb9fbcdb241aae02",
+					"jsonFile" : "target-conveyor_interfaces__rs-0228c33f5fc4fbdfbd77.json",
+					"name" : "conveyor_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces_s__rosidl_typesupport_c-80e175f0cffa37cf8c5c.json",
+					"name" : "conveyor_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces_s__rosidl_typesupport_fastrtps_c-692fb15083f0a3af951e.json",
+					"name" : "conveyor_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces_s__rosidl_typesupport_introspection_c-249834b57a42d95c7540.json",
+					"name" : "conveyor_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyor_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyor_interfaces_uninstall-581677c87ccedadf8cdf.json",
+					"name" : "conveyor_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5e1760af141461fea989.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ojingwa/conveyor_ws/build/conveyor_interfaces",
+		"source" : "/home/ojingwa/conveyor_ws/src/conveyor_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

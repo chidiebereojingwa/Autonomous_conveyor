@@ -1,0 +1,14 @@
+{
+  "package_name": "conveyor_interfaces",
+  "output_dir": "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_generator_type_description/conveyor_interfaces",
+  "idl_tuples": [
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:msg/BoxState.idl",
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:msg/BeltCommand.idl",
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:msg/SystemAlert.idl",
+    "/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:srv/SetMode.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

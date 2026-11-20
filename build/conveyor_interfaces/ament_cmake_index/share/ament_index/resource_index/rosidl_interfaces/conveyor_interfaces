@@ -1,0 +1,8 @@
+msg/BeltCommand.idl
+msg/BeltCommand.msg
+msg/BoxState.idl
+msg/BoxState.msg
+msg/SystemAlert.idl
+msg/SystemAlert.msg
+srv/SetMode.idl
+srv/SetMode.srv

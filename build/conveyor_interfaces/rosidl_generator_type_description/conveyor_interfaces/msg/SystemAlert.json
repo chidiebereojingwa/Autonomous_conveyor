@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "conveyor_interfaces/msg/SystemAlert",
+      "fields": [
+        {
+          "name": "level",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "message",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "conveyor_interfaces/msg/SystemAlert",
+      "hash_string": "RIHS01_540374bb071af4ea119d34b55c2367bee367881ff15f575650733da8b8dbdaba"
+    }
+  ]
+}

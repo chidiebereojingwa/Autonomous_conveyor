@@ -1,0 +1,4 @@
+/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:msg/BoxState.idl
+/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:msg/BeltCommand.idl
+/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:msg/SystemAlert.idl
+/home/ojingwa/conveyor_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:srv/SetMode.idl

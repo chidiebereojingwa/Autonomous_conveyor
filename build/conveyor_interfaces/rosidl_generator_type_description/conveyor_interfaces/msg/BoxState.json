@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "conveyor_interfaces/msg/BoxState",
+      "fields": [
+        {
+          "name": "box_count",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "overload",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "conveyor_interfaces/msg/BoxState",
+      "hash_string": "RIHS01_d52ab1510098283539cf5273fcd6d2c6bc900327f29811e5004d00b7b19d569a"
+    }
+  ]
+}

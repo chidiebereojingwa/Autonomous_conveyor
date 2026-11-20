@@ -1,0 +1,6 @@
+setup.py
+conveyor_interfaces/__init__.py
+conveyor_interfaces.egg-info/PKG-INFO
+conveyor_interfaces.egg-info/SOURCES.txt
+conveyor_interfaces.egg-info/dependency_links.txt
+conveyor_interfaces.egg-info/top_level.txt

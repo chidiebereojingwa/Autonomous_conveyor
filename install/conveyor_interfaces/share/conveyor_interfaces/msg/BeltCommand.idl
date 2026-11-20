@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from conveyor_interfaces/msg/BeltCommand.msg
+// generated code does not contain a copyright notice
+
+
+module conveyor_interfaces {
+  module msg {
+    struct BeltCommand {
+      float speed;
+
+      boolean stop;
+    };
+  };
+};
