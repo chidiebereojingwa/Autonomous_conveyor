@@ -1,0 +1,17 @@
+[0.017s] Invoking command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces': /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14
+[0.085s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.307s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.318s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.542s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.542s]   rosidl_generate_interfaces() the passed file 'msg/BoxState.msg' doesn't
+[0.542s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.543s]   '/home/ojingwa/conveyor_ws/src/conveyor_interfaces'
+[0.543s] Call Stack (most recent call first):
+[0.543s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.543s] 
+[0.543s] [0m
+[0.543s] -- Configuring incomplete, errors occurred!
+[0.547s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.549s] Invoked command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces' returned '2': /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14

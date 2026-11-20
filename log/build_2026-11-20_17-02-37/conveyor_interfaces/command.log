@@ -1,0 +1,2 @@
+Invoking command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces': /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14
+Invoked command in '/home/ojingwa/conveyor_ws/build/conveyor_interfaces' returned '2': /usr/bin/cmake --build /home/ojingwa/conveyor_ws/build/conveyor_interfaces -- -j14 -l14
