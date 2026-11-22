@@ -1,32 +1,68 @@
-from numpy import int32
-import rclpy
-from rclpy.node import Node
-from std_msgs.msg import Int32
-from rclpy.qos import QoSProfile, ReliabilityPolicy
+"""Publish simulated counts with overload flags matching the configured limit."""
+
+import math
 import random
 
+from conveyor_interfaces.msg import BoxState
+
+from rcl_interfaces.msg import ParameterDescriptor
+
+import rclpy
+from rclpy.node import Node
+from rclpy.qos import QoSProfile, ReliabilityPolicy
+
+
 class SensorNode(Node):
-    def __init__(self):
-        super().__init__('sensor_node')
-        qos_profile = QoSProfile(depth=10, reliability=ReliabilityPolicy.BEST_EFFORT)
-        self.publisher_ = self.create_publisher(Int32, '/box_count', qos_profile)
-        timer_period = 1.0  # seconds
-        self.timer = self.create_timer(timer_period, self.publish_box_count)
+    """Simulate the conveyor's box-count sensor."""
+
+    def __init__(self, **kwargs):
+        """Use the same configurable threshold as the controller."""
+        super().__init__('sensor_node', **kwargs)
+        self.declare_parameter(
+            'publish_rate', 1.0,
+            ParameterDescriptor(
+                read_only=True, description='Sensor publication rate in Hz; set at startup.'))
+        publish_rate = self.get_parameter('publish_rate').value
+        if not math.isfinite(publish_rate) or publish_rate <= 0.0:
+            self.destroy_node()
+            raise ValueError('publish_rate must be finite and greater than zero')
+        period = 1.0 / publish_rate
+        # rclpy converts seconds to signed 64-bit nanoseconds. Reject both
+        # overflow and a sub-nanosecond period that would round down to zero.
+        period_ns = period * 1_000_000_000
+        if not math.isfinite(period_ns) or not 1 <= period_ns < 2**63:
+            self.destroy_node()
+            raise ValueError('publish_rate must produce a representable, nonzero timer period')
+        self.declare_parameter('max_box_threshold', 7)
+        self.max_box_threshold = self.get_parameter('max_box_threshold').value
+        qos_profile = QoSProfile(depth=10, reliability=ReliabilityPolicy.RELIABLE)
+        self.publisher_ = self.create_publisher(BoxState, '/box_state', qos_profile)
+        self.timer = self.create_timer(period, self.publish_box_state)
         self.get_logger().info('Sensor node has been started.')
 
-    def publish_box_count(self):
-        box_count = random.randint(0, 10)  # Simulated box count
-        msg = Int32()
-        msg.data = box_count
+    def publish_box_state(self):
+        """Publish a simulated reading and its threshold-derived overload flag."""
+        box_count = random.randint(0, 10)
+        msg = BoxState()
+        msg.box_count = box_count
+        # Do not keep the old hard-coded limit when YAML changes the threshold.
+        msg.overload = box_count > self.max_box_threshold
         self.publisher_.publish(msg)
-        self.get_logger().info(f'Publishing: {box_count}')
-        
+        self.get_logger().info(f'Published box count: {box_count}')
+
+
 def main(args=None):
+    """Run the simulated sensor."""
     rclpy.init(args=args)
-    sensor_node = SensorNode()
-    rclpy.spin(sensor_node)
-    sensor_node.destroy_node()
-    rclpy.shutdown()
-    
+    node = SensorNode()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        rclpy.try_shutdown()
+
+
 if __name__ == '__main__':
     main()
